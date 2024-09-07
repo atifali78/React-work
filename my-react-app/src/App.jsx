@@ -1,8 +1,11 @@
-import react from 'react'
+import ProductsPage from "./pages/products";
 
-function App() {
-  
-}
+const App = () => {
+  return (
+    <>
+      <ProductsPage />
+    </>
+  );
+};
 
-
-export default App
+export default App;
